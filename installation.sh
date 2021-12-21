@@ -15,9 +15,11 @@ cd Python-3.4.0
 ./configure
 
 #Run this command to install make and all the packages needed to build your code.
-sudo apt-get install build-essential
+# sudo apt-get install build-essential
+apt-get install build-essential
 #to update the package
-sudo apt-get update
+# sudo apt-get update
+apt-get update
 
 make
 make altinstall prefix=~/local  # specify local installation directory

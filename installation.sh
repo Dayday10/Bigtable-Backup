@@ -13,6 +13,12 @@ wget https://www.python.org/ftp/python/3.4.0/Python-3.4.0.tgz
 tar xvzf Python-3.4.0.tgz
 cd Python-3.4.0
 ./configure
+
+#Run this command to install make and all the packages needed to build your code.
+sudo apt-get install build-essential
+#to update the package
+sudo apt-get update
+
 make
 make altinstall prefix=~/local  # specify local installation directory
 ln -s ~/local/bin/python3.4 ~/local/bin/python

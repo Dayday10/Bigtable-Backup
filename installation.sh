@@ -16,6 +16,8 @@ cd Python-3.4.0
 
 #Run this command to install make and all the packages needed to build your code.
 # sudo apt-get install build-essential
+
+sudo su
 apt-get install build-essential
 #to update the package
 # sudo apt-get update

@@ -3,7 +3,7 @@
 set -x
 # trap read debug
 
-sudo su joe
+# sudo su joe
 sudo apt-get install apt-transport-https ca-certificates gnupg --y
 echo "sudo apt-get install apt-transport-https ca-certificates gnupg"
 

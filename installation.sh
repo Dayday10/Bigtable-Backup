@@ -23,8 +23,8 @@ apt-get install build-essential
 # sudo apt-get update
 apt-get update
 
-make
-make altinstall prefix=~/local  # specify local installation directory
+# make
+# make altinstall prefix=~/local  # specify local installation directory
 ln -s ~/local/bin/python3.4 ~/local/bin/python
 cd ..
 

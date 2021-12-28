@@ -18,10 +18,10 @@ cd Python-3.4.0
 # sudo apt-get install build-essential
 
 sudo su
-apt-get install build-essential
+sudo apt-get install build-essential
 #to update the package
 # sudo apt-get update
-apt-get update
+sudo apt-get update
 
 make
 make altinstall prefix=~/local  # specify local installation directory

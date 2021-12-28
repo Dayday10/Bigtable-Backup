@@ -188,7 +188,6 @@ do
     --retention-period=3d
     done
   done
-  done
 done
 echo Success
 exit 0

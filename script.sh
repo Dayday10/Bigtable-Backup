@@ -96,7 +96,7 @@ ls
 #adding the path to the "GOOGLE_APPLICATION_CREDENTIALS" and also authenticating the service account
 export GOOGLE_APPLICATION_CREDENTIALS=/home/joe/testnet_bt_readwrite.json
 gcloud auth activate-service-account bigtable-backup-read-write@tour-de-sol.iam.gserviceaccount.com \
---key-file=/home/joe/testnet_bt_readwrite.json
+--key-file=/home/joe_solana_com/testnet_bt_readwrite.json
 
 
 #command to tests whether this Backup exists
@@ -145,7 +145,7 @@ sudo gcloud config configurations list
 #adding the path to the "GOOGLE_APPLICATION_CREDENTIALS" and also authenticating the service account
 export GOOGLE_APPLICATION_CREDENTIALS=/home/joe/devnet_bt_readwrite.json
 gcloud auth activate-service-account bigtable-backup-read-write@solana-devnet.iam.gserviceaccount.com \
---key-file=/home/joe/devnet_bt_readwrite.json
+--key-file=/home/joe_solana_com/devnet_bt_readwrite.json
 
 #command to tests whether this Backup exists
 gcloud bigtable backups list --instance=solana-ledger
@@ -178,7 +178,7 @@ sudo gcloud config configurations list
 #adding the path to the "GOOGLE_APPLICATION_CREDENTIALS" and also authenticating the service account
 export GOOGLE_APPLICATION_CREDENTIALS=/home/joe/mainnet-beta_bt_readwrite.json
 gcloud auth activate-service-account bigtable-backup-read-write@mainnet-beta.iam.gserviceaccount.com \
---key-file=/home/joe/mainnet-beta_bt_readwrite.json
+--key-file=/home/joe_solana_com/mainnet-beta_bt_readwrite.json
 
 #command to tests whether this Backup exists
 gcloud bigtable backups --instance=solana-ledger

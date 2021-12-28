@@ -23,8 +23,8 @@ apt-get install build-essential
 # sudo apt-get update
 apt-get update
 
-# make
-# make altinstall prefix=~/local  # specify local installation directory
+make
+make altinstall prefix=~/local  # specify local installation directory
 ln -s ~/local/bin/python3.4 ~/local/bin/python
 cd ..
 
@@ -34,7 +34,7 @@ tar xvzf setuptools-0.6c11.tar.gz
 cd setuptools-0.6c11
 ~/local/bin/python setup.py install  # specify the path to the python you installed above
 cd ..
-wget http://pypi.python.org/packages/source/p/pip/pip-1.2.1.tar.gz#md5=db8a6d8a4564d3dc7f337ebed67b1a85
+wget http://pypi.python.org/packages/source/p/pip/pip-1.2.1.tar.gz #md5=db8a6d8a4564d3dc7f337ebed67b1a85
 tar xvzf pip-1.2.1.tar.gz
 cd pip-1.2.1
 ~/local/bin/python setup.py install  # specify the path to the python you installed above
